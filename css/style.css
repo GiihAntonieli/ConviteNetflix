@@ -55,16 +55,6 @@ main > h1{
 footer{
     height: 55px;
     background-color: black;
-    
-    position: fixed;
-    bottom: 0%;
-    left: 0%;
-    right: 0%;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 
     box-shadow: 0px -10px 15px rgba(0, 0, 0, 0.646);
     
@@ -101,22 +91,69 @@ TV: acima de 1200px
         width: 98.7vw;
         background-color: rgb(163, 163, 163);
     }
+
+    footer{
+        position: fixed;
+        bottom: 0%;
+        left: 0%;
+        right: 0%;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
 }
 
 @media screen and (max-width: 600px) and (max-width: 768px) and (orientation: landscape){/*Celular*/
     html,body{
         width: 99vw;
     }
+
+    footer{
+        position: fixed;
+        bottom: 0%;
+        left: 0%;
+        right: 0%;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
-@media screen and (orientation: portrait){
-    
+@media screen and (max-width: 600px) and (max-width: 768px) and (orientation: portrait){/*Celular*/
+    footer{
+        position: fixed;
+        bottom: 0%;
+        left: 0%;
+        right: 0%;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px){/*Tablet*/
     html,body{
         width: 98.7vw;
         background-color: rgb(163, 163, 163);
+    }
+
+    footer{
+        position: fixed;
+        bottom: 0%;
+        left: 0%;
+        right: 0%;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }
 
