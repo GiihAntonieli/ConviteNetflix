@@ -44,7 +44,9 @@ nav > img{
 
 main{
     background-color: rgb(46, 46, 46);
-    height: 100vh;
+    min-height: calc(100% - 70px);
+    padding-bottom: 70px;
+    overflow: auto;
     color: white;
 }
 
@@ -52,26 +54,28 @@ main > h1{
     padding: 20px;
 }
 
-footer{
-    height: 55px;
-    background-color: black;
+#teste:active{
+    color: blue;
+}
 
-    box-shadow: 0px -10px 15px rgba(0, 0, 0, 0.646);
+footer{
+    background-color: black;
     
 }
 
 footer > a{
     text-decoration: none;
-    
+    visibility: hidden;
 }
 
 footer > a > img{
-    
+    visibility: hidden;
 }
 
 footer > a > p{
     color: white;
     font-family: 'SegoeUI', Tahoma, Geneva, Verdana, sans-serif; 
+    visibility: hidden;
 }
 
 
@@ -88,7 +92,7 @@ TV: acima de 1200px
 */
 @media screen and (max-width: 600px) and (orientation: landscape){/*Pequenas Telas*/
     html,body{
-        width: 98.7vw;
+        width: 99vw;
         background-color: rgb(163, 163, 163);
     }
 
@@ -102,7 +106,22 @@ TV: acima de 1200px
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        
+        box-shadow: 0px -10px 15px rgba(0, 0, 0, 0.646);
+    }
+
+    footer > a{
+        text-decoration: none;
+        visibility: visible;
+    }
+    
+    footer > a > img{
+        visibility: visible;
+    }
+    
+    footer > a > p{
+        color: white;
+        font-family: 'SegoeUI', Tahoma, Geneva, Verdana, sans-serif; 
+        visibility: visible;
     }
 }
 
@@ -121,6 +140,22 @@ TV: acima de 1200px
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        box-shadow: 0px -10px 15px rgba(0, 0, 0, 0.646);
+    }
+
+    footer > a{
+        text-decoration: none;
+        visibility: visible;
+    }
+    
+    footer > a > img{
+        visibility: visible;
+    }
+    
+    footer > a > p{
+        color: white;
+        font-family: 'SegoeUI', Tahoma, Geneva, Verdana, sans-serif; 
+        visibility: visible;
     }
 }
 
@@ -135,6 +170,22 @@ TV: acima de 1200px
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        box-shadow: 0px -10px 15px rgba(0, 0, 0, 0.646);
+    }
+
+    footer > a{
+        text-decoration: none;
+        visibility: visible;
+    }
+    
+    footer > a > img{
+        visibility: visible;
+    }
+    
+    footer > a > p{
+        color: white;
+        font-family: 'SegoeUI', Tahoma, Geneva, Verdana, sans-serif; 
+        visibility: visible;
     }
 }
 
@@ -154,6 +205,23 @@ TV: acima de 1200px
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        box-shadow: 0px -10px 15px rgba(0, 0, 0, 0.646);
+    }
+
+    footer > a{
+        text-decoration: none;
+        visibility: visible;
+    }
+    
+    footer > a > img{
+        visibility: visible;
+    }
+    
+    footer > a > p{
+        color: white;
+        font-family: 'SegoeUI', Tahoma, Geneva, Verdana, 
+        sans-serif;
+        visibility: visible; 
     }
 }
 
